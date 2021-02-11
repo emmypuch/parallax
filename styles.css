@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: url("images/mountain.jpg") center center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    height: 50vh;
+  }
+}
+
+.nav {
+  padding: 20px 0;
+  background-color: #0a1214;
+}
+
+.nav-logo-link:link,
+.nav-logo-link:visited {
+  text-decoration: none;
+  color: #c24606;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.nav-menu {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #0a1214;
+    flex-direction: column;
+    width: 300px;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+    transform: translateX(100%);
+    transition: all 0.5s ease;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-menu.open {
+    transform: translateX(0);
+  }
+}
+
+.nav-menu-link:link,
+.nav-menu-link:visited {
+  text-decoration: none;
+  color: #c24606;
+  transition: all 0.4s ease;
+  font-size: 18px;
+}
+
+.nav-burger {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-burger {
+    display: block;
+  }
+}
+
+.nav-burger-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+}
+
+.nav-burger-item,
+.nav-burger-item::after,
+.nav-burger-item::before {
+  display: block;
+  height: 2px;
+  width: 30px;
+  background-color: #c24606;
+}
+
+.nav-burger-item {
+  position: relative;
+  transition: all 0.1s ease;
+}
+
+.nav-burger-item::after,
+.nav-burger-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  transition: all 0.2s ease;
+}
+
+.nav-burger-item::after {
+  top: 7px;
+}
+
+.nav-burger-item::before {
+  top: -7px;
+}
+
+.closed .nav-burger-item::after,
+.closed .nav-burger-item::before {
+  top: 0;
+}
+
+.closed .nav-burger-item {
+  background-color: transparent;
+}
+
+.closed .nav-burger-item::after {
+  transform: rotate(135deg);
+}
+
+.closed .nav-burger-item::before {
+  transform: rotate(-135deg);
+}
+
+div.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.hero-content h4 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 300;
+}
