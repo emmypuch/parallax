@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter&display=swap");
 
 * {
   margin: 0;
@@ -40,7 +41,8 @@
   text-decoration: none;
   color: #c24606;
   letter-spacing: 2px;
-  font-size: 20px;
+  font-size: 2rem;
+  font-family: "Bitter", serif;
 }
 
 .nav-menu {
@@ -244,5 +246,45 @@ a {
     height: 40px;
     width: 140px;
     font-size: 0.9rem;
+  }
+}
+
+/* About Styling Starts */
+section#about {
+  padding: 5em;
+}
+
+div.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.about-content h3 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+div.about-par {
+  padding-top: 15px;
+}
+
+div.about-par p {
+  color: #535a62;
+}
+
+@media (max-width: 768px) {
+  section#about {
+    padding: 3em;
+  }
+
+  div.about-content h3 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  div.about-par p {
+    font-size: 0.8rem;
   }
 }
