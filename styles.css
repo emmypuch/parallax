@@ -144,6 +144,10 @@
   transform: rotate(-135deg);
 }
 
+div.hero-content {
+  padding-top: 5em;
+}
+
 div.hero-content h4 {
   color: #fff;
   text-transform: uppercase;
@@ -191,7 +195,6 @@ div.btn {
 a {
   color: #c24606;
   text-decoration: none;
-  letter-spacing: 1px;
 }
 
 #button-2 {
