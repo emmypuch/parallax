@@ -229,6 +229,10 @@ a {
 }
 
 @media (max-width: 768px) {
+  div.hero-content {
+    padding-top: 3em;
+  }
+
   div.hero-content h4 {
     font-size: 1.2rem;
     padding-top: 3em;
@@ -360,5 +364,9 @@ div.about-cards p {
   div.about-card-area {
     display: flex;
     flex-direction: column;
+  }
+
+  div.about-cards p {
+    font-size: 0.8rem;
   }
 }
