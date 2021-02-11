@@ -27,7 +27,7 @@
 
 @media only screen and (max-width: 600px) {
   .hero {
-    height: 50vh;
+    height: 40vh;
   }
 }
 
@@ -276,7 +276,7 @@ div.about-par p {
 
 @media (max-width: 768px) {
   section#about {
-    padding: 3em;
+    padding: 2em;
   }
 
   div.about-content h3 {
@@ -285,6 +285,80 @@ div.about-par p {
   }
 
   div.about-par p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+
+div.about-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5em;
+}
+
+div.about-card-area {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 40px;
+}
+
+div.about-cards {
+  margin: 15px;
+}
+
+div.about-cards:hover {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+div.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.about-image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+div.about-image img:hover {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #c24606;
+}
+
+div.about-cards h3 {
+  text-align: center;
+  padding-top: 7px;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+div.about-cards h5 {
+  text-align: center;
+  padding-top: 7px;
+  color: #c24606;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+div.about-cards p {
+  text-align: center;
+  color: #535a62;
+  padding-top: 7px;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  div.about-card-container {
+    padding: 3em;
+  }
+
+  div.about-card-area {
+    display: flex;
+    flex-direction: column;
   }
 }
