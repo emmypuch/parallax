@@ -452,6 +452,7 @@ div.mission-boxes h4 {
 
 div.mission-boxes:hover {
   background: #c24606;
+  color: #fff;
 }
 
 div.mission-boxes h4:hover {
@@ -460,7 +461,7 @@ div.mission-boxes h4:hover {
 
 @media (max-width: 768px) {
   section#mission-container {
-    padding: 3em;
+    padding: 0;
   }
 
   div.mission-content {
@@ -479,6 +480,12 @@ div.mission-boxes h4:hover {
     width: 400px;
     height: 300px;
     position: none;
+  }
+
+  div.grid-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   div.mission-grid-box {
