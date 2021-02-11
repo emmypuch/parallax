@@ -230,7 +230,7 @@ a {
 
 @media (max-width: 768px) {
   div.hero-content {
-    padding-top: 3em;
+    padding-top: 2em;
   }
 
   div.hero-content h4 {
@@ -368,5 +368,158 @@ div.about-cards p {
 
   div.about-cards p {
     font-size: 0.8rem;
+  }
+}
+
+/* Mission styling starts */
+section#mission-container {
+  padding: 5em;
+  background: #f9f9f9;
+}
+
+div.mission-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+div.mission-grid img {
+  width: 550px;
+  height: 450px;
+  position: absolute;
+}
+
+div.mission-grid-box {
+  position: relative;
+  right: -20px;
+  bottom: -20px;
+  padding: 15px 30px;
+  width: 600px;
+  height: 380px;
+  z-index: 5;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+div.mission-grid-box h3 {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+div.mission-grid-box h4 {
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: #535a62;
+}
+
+div.mission-grid-box h5 {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: #535a62;
+  padding-top: 15px;
+}
+
+div.mission-boxes-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 20px;
+}
+
+div.mission-boxes {
+  background: #f2f2f2;
+  width: 180px;
+  height: 150px;
+  padding: 15px 30px;
+}
+
+div.mission-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.mission-img img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+div.mission-boxes h4 {
+  text-align: center;
+  font-size: 0.9rem;
+  padding-top: 10px;
+}
+
+div.mission-boxes:hover {
+  background: #c24606;
+}
+
+div.mission-boxes h4:hover {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  section#mission-container {
+    padding: 3em;
+  }
+
+  div.mission-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.mission-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20em;
+  }
+
+  div.mission-grid img {
+    width: 400px;
+    height: 300px;
+    position: none;
+  }
+
+  div.mission-grid-box {
+    position: none;
+    right: none;
+    bottom: none;
+    padding: none;
+    width: 400px;
+    height: 380px;
+    z-index: none;
+    box-shadow: none;
+  }
+
+  div.mission-boxes-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  div.mission-grid-box h3 {
+    font-size: 1.2rem;
+  }
+
+  div.mission-grid-box h4 {
+    font-size: 0.7rem;
+  }
+
+  div.mission-grid-box h5 {
+    font-size: 0.8rem;
+    padding-top: 15px;
+  }
+
+  div.mission-boxes {
+    width: 300px;
+    height: 100px;
+    padding: 15px 30px;
+    margin-bottom: 10px;
+  }
+
+  div.mission-img img {
+    width: 50px;
+    height: 50px;
   }
 }
