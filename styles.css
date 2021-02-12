@@ -541,6 +541,7 @@ section#hero-parallax {
   justify-content: center;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 
 div.text-wrapper h3 {

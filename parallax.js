@@ -4,5 +4,8 @@ $(".nav-burger-link").on("click", function () {
 });
 
 window.addEventListener("scroll", function () {
-  const parallax = docuent.querySelector(".parallax");
+  const parallax = document.querySelector(".parallax");
+  let scrollPosition = window.pageYOffset;
+
+  parallax.style.transform = "translateY(" + scrollPosition * 0.5 + "px)";
 });
