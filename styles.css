@@ -530,3 +530,44 @@ div.mission-boxes h4:hover {
     height: 50px;
   }
 }
+
+/* Hero-parallax Styling Starts  */
+
+section#hero-parallax {
+  padding: 5em;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+div.text-wrapper h3 {
+  text-align: center;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #fff;
+}
+
+div.text-wrapper h5 {
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.parallax {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+section#overflow {
+  height: 200vh;
+}
