@@ -811,5 +811,51 @@ input {
 
 /* Team Styling Starts */
 section#team {
-  padding: 1em;
+  padding: 5em;
+}
+
+div.responsize-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* div.responsize-details {
+  display: flex;
+  flex-direction: column;
+} */
+
+div.responsize-image img {
+  width: 550px;
+  height: 350px;
+}
+
+div.image-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul#images li {
+  list-style: none;
+}
+
+ul#images li img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+}
+
+div.details {
+  display: block;
+}
+
+div.details h6 {
+  font-size: 1rem;
+  margin-left: 2em;
+}
+
+div.details h5 {
+  color: #a2a5b1;
+  font-size: 1rem;
+  padding-top: 15px;
 }
