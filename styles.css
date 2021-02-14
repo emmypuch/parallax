@@ -567,7 +567,7 @@ div.mission-boxes h4:hover {
 
 .ptext {
   position: absolute;
-  top: 20%;
+  top: 10%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -602,7 +602,7 @@ div.mission-boxes h4:hover {
 
 div.border-1 {
   position: absolute;
-  top: 32%;
+  top: 22%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -625,7 +625,7 @@ div.icons-section {
   justify-content: space-evenly;
   align-items: center;
   position: absolute;
-  top: 50%;
+  top: 40%;
   width: 100%;
 }
 
@@ -638,6 +638,22 @@ div.icons-image {
   justify-content: center;
   align-items: center;
   position: relative;
+}
+
+div.margin1 {
+  margin-top: 10px;
+}
+
+div.margin2 {
+  margin-top: 20px;
+}
+
+div.margin3 {
+  margin-top: 30px;
+}
+
+div.margin4 {
+  margin-top: 40px;
 }
 
 div.icons-image img {
@@ -663,49 +679,125 @@ div.arrow1 img {
   opacity: 0.5;
 }
 
-/* .parallax-hero {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.text-wrapper {
-  text-align: center;
-}
-
-.headline {
-  font-size: 15rem;
-  font-weight: 100;
-  line-height: 4;
-  color: #fff;
-}
-
-.headline::first-letter {
-  font-size: 20rem;
-}
-
-.sub-heading {
-  font-size: 10rem;
-  text-transform: uppercase;
-  color: #fff;
-}
-
-.parallax-image {
+div.icons-cards1 {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 120%;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
+  background-color: #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  width: 200px;
+  height: 150px;
 }
 
-.overflow {
-  height: 100vh;
-} */
+div.icons-cards2 {
+  position: absolute;
+  top: 140%;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  width: 200px;
+  height: 150px;
+}
+
+div.icons-cards3 {
+  position: absolute;
+  top: 120%;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  width: 200px;
+  height: 150px;
+}
+
+div.icons-cards4 {
+  position: absolute;
+  top: 140%;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  width: 200px;
+  height: 150px;
+}
+
+div.icons-content h6 {
+  color: #000;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 100;
+}
+
+div.icons-content p {
+  color: #999;
+  font-size: 0.7rem;
+  text-align: center;
+  padding-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .ptext {
+    font-size: 18px;
+  }
+
+  div.border-1 h4 {
+    font-size: 1rem;
+  }
+
+  div.icons-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+  }
+
+  div.arrow img {
+    display: none;
+  }
+
+  div.arrow1 img {
+    display: none;
+  }
+
+  div.icons-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* margin: 20px; */
+  }
+
+  div.icons-cards1 {
+    width: 150px;
+    height: 100px;
+    margin-top: 15px;
+  }
+
+  div.icons-cards2 {
+    width: 150px;
+    height: 100px;
+    margin-top: 15px;
+  }
+
+  div.icons-cards3 {
+    width: 150px;
+    height: 100px;
+    margin-top: 15px;
+  }
+
+  div.icons-cards4 {
+    width: 150px;
+    height: 100px;
+  }
+}
 
 /* Portfolio Styling Starts */
 section#portfolio {
