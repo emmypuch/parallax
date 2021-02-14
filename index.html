@@ -140,18 +140,46 @@
       </div>
     </section>
 
-    <section class="hero-parallax">
-      <img src="./images/header-img.jpg" alt="" class="parallax" />
+    <!-- <section class="parallax-hero">
+      <img src="images/download.jpg" alt="" class="parallax-image" />
       <div class="text-wrapper">
-        <h3>Our Process</h3>
-        <h5>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga <br />
-          voluptates modi itaque repellendus ipsa eveniet?
-        </h5>
+        <h1 classs="headline">Parallax</h1>
+        <h2 class="sub-headline">Scrolling Parallax</h2>
       </div>
     </section>
+    <section class="overflow"></section> -->
 
-    <section class="overflow"></section>
+    <div class="pimg2">
+      <div class="ptext">
+        <span class="border trans"> Our Process </span>
+        <span class="border trans"> Our Process </span>
+      </div>
+    </div>
+
+    <section class="section section-dark">
+      <h2>Section Two</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus labore
+        nemo, repudiandae voluptatibus libero esse minus maiores amet, rerum
+        debitis aliquam assumenda temporibus maxime consequuntur architecto
+      </p>
+    </section>
+
+    <div class="pimg2">
+      <div class="ptext">
+        <span class="border"> Parallax Website </span>
+      </div>
+    </div>
+
+    <section class="section section-dark">
+      <h2>Section Two</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus labore
+        nemo, repudiandae voluptatibus libero esse minus maiores amet, rerum
+        debitis aliquam assumenda temporibus maxime consequuntur architecto
+        itaque dolorum sunt tempore necessitatibus! Unde aspernatur blanditiis
+      </p>
+    </section>
 
     <section id="portfolio">
       <div class="portfolio-heading">
@@ -272,6 +300,14 @@
 
     <section id="pricing"></section>
 
+    <script>
+      window.addEventListener("scroll", function () {
+        const parallax = document.querySelector(".parallax-image");
+        let scrollPosition = window.pageYOffset;
+
+        parallax.style.transform = `translateY(${scrollPosition * 0.5}px)`;
+      });
+    </script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
       integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
