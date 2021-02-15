@@ -794,7 +794,7 @@ div.icons-content p:hover {
   div.icons-image {
     display: flex;
     flex-direction: column;
-    margin-bottom: 150px;
+    margin-bottom: 110px;
   }
 
   div.arrow img {
@@ -815,19 +815,19 @@ div.icons-content p:hover {
   div.icons-cards1 {
     width: 300px;
     height: 120px;
-    margin-top: 15px;
+    /* margin-top: 15px; */
   }
 
   div.icons-cards2 {
     width: 300px;
     height: 120px;
-    margin-top: 15px;
+    /* margin-top: 15px; */
   }
 
   div.icons-cards3 {
     width: 300px;
     height: 120px;
-    margin-top: 15px;
+    /* margin-top: 15px; */
   }
 
   div.icons-cards4 {
