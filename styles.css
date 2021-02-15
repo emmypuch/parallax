@@ -479,6 +479,7 @@ div.mission-boxes h4:hover {
     justify-content: center;
     align-items: center;
     padding-top: 20em;
+    padding-bottom: 12em;
   }
 
   div.mission-grid img {
@@ -743,21 +744,28 @@ div.icons-content p {
 }
 
 @media (max-width: 768px) {
+  .pimg2 {
+    max-height: 100%;
+  }
+
   .ptext {
     font-size: 18px;
   }
 
   div.border-1 h4 {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
   }
 
-  div.icons-section {
+  /* div.icons-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    position: absolute;
-    top: 40%;
-    width: 100%;
+  } */
+
+  div.icons-image {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
   }
 
   div.arrow img {
@@ -776,26 +784,26 @@ div.icons-content p {
   }
 
   div.icons-cards1 {
-    width: 150px;
-    height: 100px;
+    width: 300px;
+    height: 120px;
     margin-top: 15px;
   }
 
   div.icons-cards2 {
-    width: 150px;
-    height: 100px;
+    width: 300px;
+    height: 120px;
     margin-top: 15px;
   }
 
   div.icons-cards3 {
-    width: 150px;
-    height: 100px;
+    width: 300px;
+    height: 120px;
     margin-top: 15px;
   }
 
   div.icons-cards4 {
-    width: 150px;
-    height: 100px;
+    width: 300px;
+    height: 120px;
   }
 }
 
