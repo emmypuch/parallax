@@ -774,12 +774,12 @@ div.icons-content p:hover {
   }
 
   .ptext {
-    top: 3%;
-    font-size: 18px;
+    top: 2%;
+    font-size: 20px;
   }
 
   div.border-1 {
-    top: 10%;
+    top: 8%;
   }
 
   div.border-1 h4 {
@@ -788,7 +788,7 @@ div.icons-content p:hover {
   }
 
   div.icons-section {
-    top: 20%;
+    top: 18%;
   }
 
   div.icons-image {
@@ -809,30 +809,26 @@ div.icons-content p:hover {
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* margin: 20px; */
   }
 
   div.icons-cards1 {
-    width: 300px;
-    height: 120px;
-    /* margin-top: 15px; */
+    width: 380px;
+    height: 125px;
   }
 
   div.icons-cards2 {
-    width: 300px;
-    height: 120px;
-    /* margin-top: 15px; */
+    width: 380px;
+    height: 125px;
   }
 
   div.icons-cards3 {
-    width: 300px;
-    height: 120px;
-    /* margin-top: 15px; */
+    width: 380px;
+    height: 125px;
   }
 
   div.icons-cards4 {
-    width: 300px;
-    height: 120px;
+    width: 380px;
+    height: 125px;
   }
 }
 
