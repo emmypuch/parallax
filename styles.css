@@ -774,7 +774,12 @@ div.icons-content p:hover {
   }
 
   .ptext {
+    top: 3%;
     font-size: 18px;
+  }
+
+  div.border-1 {
+    top: 10%;
   }
 
   div.border-1 h4 {
@@ -782,10 +787,9 @@ div.icons-content p:hover {
     text-align: center;
   }
 
-  /* div.icons-section {
-    display: flex;
-    flex-direction: column;
-  } */
+  div.icons-section {
+    top: 20%;
+  }
 
   div.icons-image {
     display: flex;
