@@ -693,10 +693,6 @@ div.icons-cards1 {
   height: 150px;
 }
 
-div.icons-cards1:hover {
-  background-color: #c24606;
-}
-
 div.icons-cards2 {
   position: absolute;
   top: 140%;
@@ -707,10 +703,6 @@ div.icons-cards2 {
   box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
   width: 200px;
   height: 150px;
-}
-
-div.icons-cards2:hover {
-  background-color: #c24606;
 }
 
 div.icons-cards3 {
@@ -725,10 +717,6 @@ div.icons-cards3 {
   height: 150px;
 }
 
-div.icons-cards3:hover {
-  background-color: #c24606;
-}
-
 div.icons-cards4 {
   position: absolute;
   top: 140%;
@@ -739,10 +727,6 @@ div.icons-cards4 {
   box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
   width: 200px;
   height: 150px;
-}
-
-div.icons-cards4:hover {
-  background-color: #c24606;
 }
 
 div.icons-content h6 {
@@ -758,14 +742,6 @@ div.icons-content p {
   font-size: 0.7rem;
   text-align: center;
   padding-top: 15px;
-}
-
-div.icons-content h6:hover {
-  color: #fff;
-}
-
-div.icons-content p:hover {
-  color: #fff;
 }
 
 @media (max-width: 768px) {
