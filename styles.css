@@ -1067,7 +1067,7 @@ input {
 /* Small Styling Starts */
 .pimg3 {
   background-image: url("images/bg4.jpg");
-  min-height: 400px;
+  min-height: 350px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -1084,15 +1084,102 @@ input {
 
 .pheading {
   position: absolute;
-  top: 50%;
+  top: 25%;
   width: 100%;
   text-align: center;
   color: #000;
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 3rem;
   letter-spacing: 1px;
 }
 
 .pheading .pborder.trans {
   background-color: transparent;
+}
+
+.p-paragraph {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-paragraph-subhead {
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.p-button {
+  position: absolute;
+  top: 57%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button1 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 160px;
+  border: 1px solid #c24606;
+  border-radius: 25px;
+  margin: 20px 20px 20px 20px;
+  background: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  overflow: hidden;
+}
+
+a {
+  color: #c24606;
+  text-decoration: none;
+}
+
+#button-2 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-2 a {
+  position: relative;
+  transition: all 0.35s ease-Out;
+}
+
+#slide {
+  width: 100%;
+  height: 100%;
+  left: -200px;
+  background: #c24606;
+  position: absolute;
+  transition: all 0.35s ease-Out;
+  bottom: 0;
+}
+
+#button-2:hover #slide {
+  left: 0;
+}
+
+#button-2:hover a {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .pheading {
+    font-size: 1.7rem;
+  }
+
+  .p-paragraph {
+    top: 38%;
+  }
+
+  .p-paragraph-subhead {
+    font-size: 1.1rem;
+  }
 }
