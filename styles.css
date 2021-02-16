@@ -1063,3 +1063,36 @@ input {
     height: 265px;
   }
 }
+
+/* Small Styling Starts */
+.pimg3 {
+  background-image: url("images/bg4.jpg");
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+
+  /*
+  fixed = parallax
+  scroll = normal
+  */
+
+  background-attachment: fixed;
+}
+
+.pheading {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-weight: 800;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.pheading .pborder.trans {
+  background-color: transparent;
+}
