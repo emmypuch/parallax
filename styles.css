@@ -1234,3 +1234,16 @@ div.grid1-content a {
     margin-top: 25px;
   }
 }
+
+/* Footer Styling Starts */
+section#footer {
+  padding: 5em;
+  background-color: #000;
+}
+
+footer {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
