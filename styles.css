@@ -1387,7 +1387,7 @@ a {
 }
 
 /* Contact Styling Starts */
-section.contact {
+/* section.contact {
   padding: 5em;
 }
 
@@ -1421,8 +1421,7 @@ textarea::placeholder {
   color: #000;
   font-size: 1em;
   font-weight: 300;
-  
-}
+} */
 
 /* Footer Styling Starts */
 section#footer {
