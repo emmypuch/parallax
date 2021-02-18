@@ -529,7 +529,6 @@ div.mission-boxes h4 {
 }
 
 /* Hero-parallax Styling Starts  */
-
 .pimg2 {
   background-image: url("images/mountain.jpg");
   background-repeat: no-repeat;
@@ -1174,12 +1173,12 @@ div.client-par span {
   }
 
   div.border-1 {
-    top: 16%;
+    top: 14%;
   }
 
   div.border-1 h5 {
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     padding-top: 5px;
   }
 
@@ -1188,7 +1187,7 @@ div.client-par span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: 28%;
+    top: 25%;
   }
   
   div.clients-card1 {
@@ -1290,6 +1289,10 @@ div.grid1-content a {
 }
 
 /* Work Styling Starts */
+section#work {
+  padding: 5em;
+}
+
 .pimg3 {
   background-image: url("images/bg4.jpg");
   min-height: 350px;
@@ -1406,6 +1409,10 @@ a {
 
   .p-paragraph-subhead {
     font-size: 1.1rem;
+  }
+
+  section#work {
+    padding: 2em;
   }
 } 
 
