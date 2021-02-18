@@ -1099,12 +1099,6 @@ div.border-1 h5 {
   font-weight: 100;
 }
 
-div.clients-cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 div.clients-container {
   display: flex;
   justify-content: space-evenly;
@@ -1162,14 +1156,43 @@ div.client-par span {
     min-height: 100%;
   }
 
+  .ptext4 {
+    top: 7%;
+    font-size: 24px;
+  }
+
+  .ptext4 .border {
+    padding: 8px;
+  }
+
+  .ptext4 .border1 {
+    padding: 15px;
+  }
+
+  .ptext4 h3.border {
+    font-size: 1rem;
+  }
+
+  div.border-1 {
+    top: 16%;
+  }
+
+  div.border-1 h5 {
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 5px;
+  }
+
   div.clients-container {
     display: flex;
     flex-direction: column;
-    top: 30%;
+    justify-content: center;
+    align-items: center;
+    top: 28%;
   }
   
   div.clients-card1 {
-    width: 300px;
+    width: 350px;
     height: 180px;
     margin-bottom: 10px;
     padding: 5px 10px;
@@ -1384,7 +1407,7 @@ a {
   .p-paragraph-subhead {
     font-size: 1.1rem;
   }
-}
+} 
 
 /* Contact Styling Starts */
 /* section.contact {
