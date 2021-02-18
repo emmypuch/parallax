@@ -1165,7 +1165,7 @@ div.client-par span {
   div.clients-container {
     display: flex;
     flex-direction: column;
-    top: 20%;
+    top: 30%;
   }
   
   div.clients-card1 {
@@ -1177,6 +1177,14 @@ div.client-par span {
 
   div.client-sub {
     padding-bottom: 10px;
+  }
+
+  div.client-par h5 {
+    font-size: 0.8rem;
+  }
+
+  div.clients-card1 h6 {
+    font-size: 0.7rem;
   }
 }
 
