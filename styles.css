@@ -1090,7 +1090,7 @@ input {
   background-color: transparent;
 }
 
-div.border-1 {
+div.border-2 {
   position: absolute;
   top: 22%;
   width: 100%;
@@ -1099,7 +1099,7 @@ div.border-1 {
   align-items: center;
 }
 
-div.border-1 h5 {
+div.border-2 h5 {
   padding-top: 15px;
   color: #111;
   font-weight: 100;
@@ -1181,11 +1181,11 @@ div.client-par span {
     font-size: 1rem;
   }
 
-  div.border-1 {
-    top: 8%;
+  div.border-2 {
+    top: 14%;
   }
 
-  div.border-1 h5 {
+  div.border-2 h5 {
     text-align: center;
     font-size: 0.7rem;
     padding-top: 5px;
