@@ -284,7 +284,7 @@ div.about-par p {
 }
 
 @media (max-width: 768px) {
-  section#about {
+  section.about {
     padding: 2em;
   }
 
@@ -372,6 +372,11 @@ div.about-cards p {
 
   div.about-cards p {
     font-size: 0.8rem;
+  }
+
+  div.about-cards {
+    width: 350px;
+    height: 300px;
   }
 }
 
@@ -737,7 +742,7 @@ div.icons-content p {
 
 @media (max-width: 768px) {
   .pimg2 {
-    min-height: 1100px;
+    min-height: 1250px;
   }
 
   .ptext {
@@ -1008,7 +1013,7 @@ input {
 }
 
 @media (max-width: 768px) {
-  section#portfolio {
+  section.portfolio {
     padding: 1em;
   }
 
