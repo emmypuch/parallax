@@ -736,9 +736,9 @@ div.icons-content p {
 }
 
 @media (max-width: 768px) {
-  /* .pimg2 {
-    max-height: 100%;
-  } */
+  .pimg2 {
+    min-height: 1100px;
+  }
 
   .ptext {
     top: 2%;
@@ -755,13 +755,13 @@ div.icons-content p {
   }
 
   div.icons-section {
-    top: 18%;
+    top: 17%;
   }
 
   div.icons-image {
     display: flex;
     flex-direction: column;
-    margin-bottom: 110px;
+    margin-bottom: 150px;
   }
 
   div.arrow img {
@@ -1177,7 +1177,7 @@ div.client-par span {
   }
 
   div.border-1 {
-    top: 14%;
+    top: 8%;
   }
 
   div.border-1 h5 {
