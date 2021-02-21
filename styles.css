@@ -1440,6 +1440,10 @@ div.contact-flex li a {
   section.contact {
     padding: 2em;
   }
+
+  div.contact-flex li a {
+    font-size: 2rem;
+  }
 }
 
 /* Footer Styling Starts */
