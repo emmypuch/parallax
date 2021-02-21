@@ -1422,6 +1422,20 @@ section.contact {
   padding: 5em;
 }
 
+div.contact-flex {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3em;
+}
+
+div.contact-flex li {
+  list-style: none;
+}
+
+div.contact-flex li a {
+  font-size: 2.5rem;
+}
+
 @media (max-width: 768px) {
   section.contact {
     padding: 2em;
